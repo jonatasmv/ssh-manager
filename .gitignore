@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.log
+
+# Diretório de dados local, caso use --data-dir .data
+.data/
+
+# Dados e exportações locais (nunca versionar segredos)
+servers.json
+servers.json.bak
+secret.key
+ssh-servers-*.json
+ssh-servers-*.csv
